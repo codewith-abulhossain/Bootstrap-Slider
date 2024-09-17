@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+#carousel {
+  max-width: 90%;
+  height: 80vh;
+  margin: 20px auto !important;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(158, 8, 8);
+  margin-top: 1rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.items {
+  max-width: 800px;
+  margin: auto;
+}
+
+.items img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 100%;
+}
+.starts svg {
+  color: red;
+  margin: 1rem 0;
+}
+.items h4 {
+  margin-top: 15px;
+}
+.bi-arrow-right,
+.bi-arrow-left {
+  color: red;
+}
